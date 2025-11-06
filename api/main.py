@@ -57,7 +57,7 @@ def query(req: QueryRequest):
     ctx_text = "\n\n---\n\n".join([f"Source ({h['path']}):\n{h['text'][:1500]}" for h in hits])
     
     prompt = f"""
-    Tu es un assistant spécialisé dans le support aux équipes techniques et fonctionnelles.
+    Tu es un assistant d'entreprise spécialisé dans le support aux équipes techniques et fonctionnelles.
     Utilise les informations suivantes pour répondre à la question :
     {q}
 
