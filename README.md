@@ -21,7 +21,13 @@ Il connecte vos **données internes (docs, logs, fiches, tickets)** à un **LLM 
 🎯 **Objectif :** un assistant robuste, privé et directement exploitable en entreprise.
 
 ---
+## 🎥 Démonstration visuelle
 
+<p align="center">
+  <img src="assets/pagedefilante.gif" alt="Démonstration du copilote RAG SynapseDesk" width="850">
+</p>
+
+---
 ## 🧩 Architecture
 
 ```
