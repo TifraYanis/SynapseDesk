@@ -1,0 +1,1 @@
+{"log_id": 141, "job_id": "bronze_to_silver", "stage": 3, "duration_ms": 55857, "error": "StageFailure (Skew detected)", "host": "node-18", "timestamp": "2025-11-01T22:45:01.882519Z"}

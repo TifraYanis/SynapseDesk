@@ -1,0 +1,10 @@
+{
+  "ticket_id": "DP-1020",
+  "summary": "Add alert for low disk on prod cluster",
+  "reporter": "elisa.bernard@example.com",
+  "assignee": "camille.dupont@example.com",
+  "priority": "High",
+  "status": "In Progress",
+  "created_at": "2025-10-09T14:58:01.934044Z",
+  "description": "Steps to reproduce: ..."
+}

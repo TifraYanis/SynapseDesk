@@ -1,0 +1,1 @@
+{"log_id": 51, "job_id": "daily_agg", "stage": 2, "duration_ms": 299227, "error": "ExecutorLostFailure (OOM)", "host": "node-18", "timestamp": "2025-11-02T23:16:01.831669Z"}

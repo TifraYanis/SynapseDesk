@@ -1,0 +1,7 @@
+{
+  "subject": "Action required: nightly job failures",
+  "from": "ops@example.com",
+  "to": "data-platform@example.com",
+  "date": "2025-11-06T14:58:01Z",
+  "body": "We've observed increased failures for bronze_to_silver during peak. Please investigate and escalate if needed."
+}

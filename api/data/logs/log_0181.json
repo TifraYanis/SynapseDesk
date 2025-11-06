@@ -1,0 +1,1 @@
+{"log_id": 181, "job_id": "bronze_to_silver", "stage": 6, "duration_ms": 54056, "error": "ExecutorLostFailure (OOM)", "host": "node-11", "timestamp": "2025-11-06T00:17:01.905027Z"}

@@ -1,0 +1,10 @@
+{
+  "ticket_id": "DP-1024",
+  "summary": "Job bronze_to_silver fails intermittently",
+  "reporter": "bastien.leroy@example.com",
+  "assignee": "gwen.thomas@example.com",
+  "priority": "Medium",
+  "status": "In Progress",
+  "created_at": "2025-10-16T14:58:01.936110Z",
+  "description": "Steps to reproduce: ..."
+}

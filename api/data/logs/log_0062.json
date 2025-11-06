@@ -1,0 +1,1 @@
+{"log_id": 62, "job_id": "client_merge", "stage": 3, "duration_ms": 242755, "error": "ExecutorLostFailure (OOM)", "host": "node-3", "timestamp": "2025-11-05T21:30:01.837701Z"}

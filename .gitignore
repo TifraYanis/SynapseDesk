@@ -1,0 +1,71 @@
+# --- Environnements ---
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs et fichiers temporaires ---
+*.log
+*.tmp
+*.bak
+*.swp
+nohup.out
+
+# --- Python ---
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+MANIFEST
+
+# --- Cache / Tests ---
+.pytest_cache/
+coverage/
+htmlcov/
+.cache/
+.tox/
+.mypy_cache/
+
+# --- Données & index ---
+indices/
+api/output/
+corpus.jsonl
+bm25_corpus.txt
+dense.index
+
+# --- Ollama ---
+ollama_models/
+ollama_cache/
+ollama_data/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Autres gros fichiers ---
+*.pdf
+*.docx
+*.zip
+*.tar.gz
+*.h5
+*.pt
+*.bin
+*.npy
+
+# --- Windows ---
+desktop.ini

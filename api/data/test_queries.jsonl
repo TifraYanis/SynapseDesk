@@ -1,0 +1,8 @@
+{"id": "q001", "query": "Comment corriger un OOM sur un job Spark ?", "type": "contextual", "expected": "référence aux actions: augmenter executor memory, partitioning, broadcast join"}
+{"id": "q002", "query": "Qui est le PO pour la roadmap usage analytics ?", "type": "contextual", "expected": "Camille Dupont"}
+{"id": "q003", "query": "Quelles sont les règles pour le télétravail ?", "type": "contextual", "expected": "Remote days allowed: up to 3 days/week"}
+{"id": "q004", "query": "Comment reset un mot de passe AD ?", "type": "non_contextual", "expected": "réponse générique procédure IT (pas dans le KB)"}
+{"id": "q005", "query": "Quel est le propriétaire du dataset transactions ?", "type": "contextual", "expected": "email du owner dans datasets_catalog.csv"}
+{"id": "q006", "query": "Explique-moi le concept de 'data skew' en Spark simplement.", "type": "non_contextual", "expected": "explication pédagogique sans citation spécifique"}
+{"id": "q007", "query": "Le job bronze_to_silver a échoué la nuit dernière, quelles actions ?", "type": "contextual", "expected": "Analyse logs + OOM + suggestion: rerun with small sample"}
+{"id": "q008", "query": "Comment contacter l'oncall ?", "type": "contextual", "expected": "pager@example.com ou data-platform@example.com"}

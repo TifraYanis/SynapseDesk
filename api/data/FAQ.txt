@@ -1,0 +1,5 @@
+Q: Who owns bronze_to_silver job?
+A: data-eng@example.com (David Moreau)
+
+Q: How to contact oncall?
+A: Pager duty -> pager@example.com

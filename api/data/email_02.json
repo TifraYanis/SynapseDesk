@@ -1,0 +1,7 @@
+{
+  "subject": "New hire: access request",
+  "from": "elisa.bernard@example.com",
+  "to": "it-ops@example.com",
+  "date": "2025-11-06T14:58:01Z",
+  "body": "Please create accounts: GitHub, Jira, Confluence for new hire - onboarding next Monday."
+}

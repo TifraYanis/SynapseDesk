@@ -1,0 +1,10 @@
+{
+  "ticket_id": "DP-1048",
+  "summary": "Request access to analytics dashboard",
+  "reporter": "camille.dupont@example.com",
+  "assignee": "fouad.k@example.com",
+  "priority": "High",
+  "status": "Resolved",
+  "created_at": "2025-10-17T14:58:01.949719Z",
+  "description": "Steps to reproduce: ..."
+}

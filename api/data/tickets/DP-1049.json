@@ -1,0 +1,10 @@
+{
+  "ticket_id": "DP-1049",
+  "summary": "Data schema version bump causes downstream errors",
+  "reporter": "fouad.k@example.com",
+  "assignee": "bastien.leroy@example.com",
+  "priority": "Critical",
+  "status": "Open",
+  "created_at": "2025-09-08T14:58:01.949719Z",
+  "description": "Steps to reproduce: ..."
+}

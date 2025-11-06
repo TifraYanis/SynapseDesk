@@ -1,0 +1,44 @@
+/* Couleurs */
+:root{
+  --bg:#0E1117;
+  --card:#1E1E2E;
+  --ink:#E6EAF2;
+  --muted:#A5B0C3;
+  --accent:#5BC0EB;
+  --ok:#00FFB3;
+}
+
+html, body, .stApp { background-color: var(--bg); color: var(--ink); }
+
+/* Titre app avec léger glow */
+.app-title {
+  font-size: 42px; 
+  margin: 0 0 6px 0;
+  background: linear-gradient(90deg, #ffffff 0%, #c5e5ff 50%, #ffffff 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+@keyframes shine {
+  0% { filter: drop-shadow(0 0 0 rgba(91,192,235,0)); }
+  50% { filter: drop-shadow(0 0 12px rgba(91,192,235,0.25)); }
+  100% { filter: drop-shadow(0 0 0 rgba(91,192,235,0)); }
+}
+
+.page-title { margin-top: 6px; }
+
+/* Cartes et expanders */
+.block-container { padding-top: 1.2rem; }
+.stExpander, .stTextInput, .stButton>button, .stSelectbox, .stChatMessage {
+  background: var(--card) !important;
+  border-radius: 14px !important;
+  border: 1px solid #2b2b3b !important;
+}
+
+/* Messages chat */
+.stChatMessage[data-testid="stChatMessageUser"] {
+  border-left: 3px solid var(--accent);
+}
+.stChatMessage[data-testid="stChatMessageAssistant"] {
+  border-left: 3px solid var(--ok);
+}
+.latency { color: var(--muted); font-size: 12px; margin-bottom: 8px; }

@@ -1,0 +1,1 @@
+{"log_id": 57, "job_id": "bronze_to_silver", "stage": 6, "duration_ms": 11034, "error": "FileNotFoundError", "host": "node-11", "timestamp": "2025-11-02T22:50:01.834686Z"}

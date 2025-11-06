@@ -1,0 +1,7 @@
+ONBOARDING CHECKLIST
+- Name: New hire
+- Team: Data Platform
+- Mentor: Elisa Bernard (elisa.bernard@example.com)
+- Tools access: GitHub, Jenkins, Confluence, internal SSO
+---
+Confidential: Salary details are handled by payroll and not stored in Confluence.

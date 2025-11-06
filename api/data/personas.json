@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alice Martin",
+    "role": "Data Scientist",
+    "email": "alice.martin@example.com"
+  },
+  {
+    "name": "Bastien Leroy",
+    "role": "Site Reliability Engineer",
+    "email": "bastien.leroy@example.com"
+  },
+  {
+    "name": "Camille Dupont",
+    "role": "Product Owner",
+    "email": "camille.dupont@example.com"
+  },
+  {
+    "name": "David Moreau",
+    "role": "Data Engineer",
+    "email": "david.moreau@example.com"
+  },
+  {
+    "name": "Elisa Bernard",
+    "role": "HR Manager",
+    "email": "elisa.bernard@example.com"
+  },
+  {
+    "name": "Fouad K.",
+    "role": "Support Technician",
+    "email": "fouad.k@example.com"
+  },
+  {
+    "name": "Gwen Thomas",
+    "role": "Business Analyst",
+    "email": "gwen.thomas@example.com"
+  },
+  {
+    "name": "Hugo Petit",
+    "role": "ML Ops Engineer",
+    "email": "hugo.petit@example.com"
+  }
+]

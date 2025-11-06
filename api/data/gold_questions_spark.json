@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Pourquoi le job bronze_to_silver échoue parfois ?",
+    "expected": "OOM sur stage 3; broadcast possible; filtrage en amont"
+  },
+  {
+    "question": "Comment optimiser client_merge ?",
+    "expected": "broadcast join si stg petit; vérifier plan; partitionnement"
+  },
+  {
+    "question": "Checklist avant mise en prod ?",
+    "expected": "Delta ACID, optimizeWrite, autoCompact, rollback plan"
+  }
+]

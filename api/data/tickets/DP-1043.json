@@ -1,0 +1,10 @@
+{
+  "ticket_id": "DP-1043",
+  "summary": "Request access to analytics dashboard",
+  "reporter": "david.moreau@example.com",
+  "assignee": "david.moreau@example.com",
+  "priority": "Medium",
+  "status": "In Progress",
+  "created_at": "2025-09-08T14:58:01.946694Z",
+  "description": "Steps to reproduce: ..."
+}

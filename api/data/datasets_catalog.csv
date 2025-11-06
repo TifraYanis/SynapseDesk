@@ -1,0 +1,6 @@
+dataset_name,owner,rows,updated_at
+customers,hugo.petit@example.com,815536,2025-11-06T14:58:01Z
+transactions,bastien.leroy@example.com,915326,2025-11-06T14:58:01Z
+events,hugo.petit@example.com,24482,2025-11-06T14:58:01Z
+products,gwen.thomas@example.com,823087,2025-11-06T14:58:01Z
+inventory,alice.martin@example.com,678987,2025-11-06T14:58:01Z
