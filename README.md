@@ -118,15 +118,6 @@ make streamlit
 
 ---
 
-## 🎨 Design
-
-- Interface sombre élégante (`#0E1117 / #1E1E2E / #00FFB3`)
-- Effet lumineux sur les titres et transitions fluides
-- Citations pliables avec affichage des scores
-- Responsive et épuré
-
----
-
 ## 🧩 Structure du projet
 
 ```
