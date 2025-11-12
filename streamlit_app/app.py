@@ -2,7 +2,7 @@ import streamlit as st
 from pathlib import Path
 
 # ------------------------------
-# ⚙️ CONFIGURATION DE LA PAGE
+# CONFIGURATION DE LA PAGE
 # ------------------------------
 st.set_page_config(
     page_title="SynapseDesk",
@@ -12,14 +12,14 @@ st.set_page_config(
 )
 
 # ------------------------------
-# 🎨 STYLES PERSONNALISÉS
+# STYLES PERSONNALISÉS
 # ------------------------------
 css_path = Path(__file__).parent / "assets" / "styles.css"
 if css_path.exists():
     st.markdown(f"<style>{css_path.read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
 # ------------------------------
-# 🧠 HERO SECTION
+# HERO SECTION
 # ------------------------------
 st.markdown(
     """
@@ -37,7 +37,7 @@ st.markdown(
 )
 
 # ------------------------------
-# 📖 PRESENTATION DU PROJET
+# PRESENTATION DU PROJET
 # ------------------------------
 st.markdown(
     """
@@ -57,7 +57,7 @@ st.markdown(
 st.divider()
 
 # ------------------------------
-# ⚙️ COMMENT ÇA MARCHE
+# COMMENT ÇA MARCHE
 # ------------------------------
 st.markdown(
     """
@@ -82,7 +82,7 @@ st.info(
 st.divider()
 
 # ------------------------------
-# 🔗 LIENS PERSONNELS
+# LIENS PERSONNELS
 # ------------------------------
 st.markdown(
     """
