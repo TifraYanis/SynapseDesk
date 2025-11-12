@@ -24,7 +24,7 @@ def build_hybrid_index(corpus_path: str, index_dir: str, model_name: str = "intf
                 continue
 
     if not records:
-        print(f"❌ Aucun document trouvé dans {corpus_path}")
+        print(f"Aucun document trouvé dans {corpus_path}")
         return
 
     print(f"📚 Corpus chargé : {len(records)} documents")
@@ -33,7 +33,7 @@ def build_hybrid_index(corpus_path: str, index_dir: str, model_name: str = "intf
     # --- Encodage incrémental pour éviter OOM ---
     texts = [r["text"] for r in records]
     embs_list = []
-    for i in tqdm(range(0, len(texts), batch_size), desc="🔢 Encodage embeddings"):
+    for i in tqdm(range(0, len(texts), batch_size), desc="Encodage embeddings"):
         batch = texts[i:i+batch_size]
         embs = model.encode(batch, normalize_embeddings=True, convert_to_numpy=True)
         embs_list.append(embs)
@@ -55,10 +55,10 @@ def build_hybrid_index(corpus_path: str, index_dir: str, model_name: str = "intf
         for r in records:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    print("\n✅ Index hybride généré avec succès !")
-    print(f"   📦 Documents indexés : {len(records)}")
-    print(f"   📊 Dimension des embeddings : {dim}")
-    print(f"   💾 Dossier index : {index_dir}")
+    print("\nIndex hybride généré avec succès !")
+    print(f"Documents indexés : {len(records)}")
+    print(f"Dimension des embeddings : {dim}")
+    print(f"Dossier index : {index_dir}")
 
 def main():
     ap = argparse.ArgumentParser()

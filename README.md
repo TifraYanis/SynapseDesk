@@ -1,4 +1,4 @@
-# 🧠 SynapseDesk — Copilote RAG local (Ollama + Mistral)
+# 🧠 SynapseDesk - Copilote RAG local (Ollama + Mistral)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green.svg)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 Présentation du projet
+## Présentation du projet
 
 **SynapseDesk** est un copilote d’entreprise local conçu pour aider les équipes **Data, IT, RH, DevOps ou métiers**.  
 Il connecte vos **données internes (docs, logs, fiches, tickets)** à un **LLM local (Mistral 7B via Ollama)** pour fournir :
@@ -28,7 +28,7 @@ Il connecte vos **données internes (docs, logs, fiches, tickets)** à un **LLM 
 </p>
 
 ---
-## 🧩 Architecture
+## Architecture
 
 ```
 Utilisateur → Streamlit UI → FastAPI API → Retriever hybride (FAISS + BM25)
@@ -46,7 +46,7 @@ Utilisateur → Streamlit UI → FastAPI API → Retriever hybride (FAISS + BM25
 
 ---
 
-## ⚙️ Stack technique
+## Stack technique
 
 | Composant | Description |
 |------------|-------------|
@@ -61,7 +61,7 @@ Utilisateur → Streamlit UI → FastAPI API → Retriever hybride (FAISS + BM25
 
 ---
 
-## 🧠 Logique adaptative
+## Logique adaptative
 
 Le système évalue la pertinence des passages trouvés :
 - Si le **score maximal** ≥ `0.01` → **RAG activé** (réponse sourcée à partir des données internes)
@@ -159,18 +159,18 @@ Sources : logs/log_0042.json, docs/Troubleshooting_Spark.md
 
 ## 🔮 Améliorations prévues
 
-- 🧾 Support PDF + OCR (Tesseract)
-- 🔁 Cache Redis pour accélérer le retrieval
-- 📊 Dashboard d’analyse et monitoring
-- 🧩 Historique multi-utilisateurs
-- 🛡️ Guardrails (détection PII, sensibilité des données)
+- Support PDF + OCR (Tesseract)
+- Cache Redis pour accélérer le retrieval
+- Dashboard d’analyse et monitoring
+- Historique multi-utilisateurs
+- Guardrails (détection PII, sensibilité des données)
 
 ---
 
 ## 👤 Auteur
 
 **Tifra Yanis**  
-📍 Data / AI Engineer — France  
+📍 Data / AI Engineer - France  
 🔗 [LinkedIn](https://www.linkedin.com/in/yanis-tifra-969134204/)  
 💻 [GitHub](https://github.com/TifraYanis)
 

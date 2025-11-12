@@ -1,6 +1,6 @@
 .PHONY: setup ingest build-index ollama-check api streamlit run clean generate-data
 # ======================================================
-# 🧠 RAG Ops Copilot - Makefile (Pro Portfolio Edition)
+# RAG Ops Copilot - Makefile 
 # Author: Yanis Tifra
 # ======================================================
 
@@ -12,7 +12,7 @@ INDEX_DIR = ./indices
 EMBED_MODEL = intfloat/multilingual-e5-base
 
 # ======================================================
-# 🔧 Setup complet
+# Setup complet
 # ======================================================
 
 setup:
@@ -23,7 +23,7 @@ setup:
 
 
 # ======================================================
-# 📥 Ingestion et Indexation
+# Ingestion et Indexation
 # ======================================================
 
 generate-data:
@@ -43,7 +43,7 @@ build-index:
 reindex: ingest build-index
 
 # ======================================================
-# 🤖 Vérification Ollama
+# Vérification Ollama
 # ======================================================
 
 ollama-run:
@@ -57,7 +57,7 @@ ollama-check:
 
 
 # ======================================================
-# 🚀 Lancement API & App
+# Lancement API & App
 # ======================================================
 
 api:
@@ -72,7 +72,7 @@ streamlit:
 
 
 # ======================================================
-# ♻️ Maintenance
+# Maintenance
 # ======================================================
 
 restart:
